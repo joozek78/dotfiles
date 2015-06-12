@@ -10,6 +10,7 @@
 	co = checkout
 	br = branch
 	amend = commit --amend --reuse-message=HEAD
+	here = show --summary
 
 	# Interactive rebase with the given number of latest commits
 	reb = "!r() { git rebase -i HEAD~$1; }; r"
@@ -83,15 +84,7 @@
 	new = green # additions
 
 [color "status"]
-
-	added = yellow
-	changed = green
 	untracked = cyan
-
-[help]
-
-	# Automatically correct and execute mistyped commands
-	autocorrect = 1
 
 [merge]
 
