@@ -1,5 +1,5 @@
 [user]
-	email = mj.golinski@gmail.com
+	email = marcin.j.golinski@intel.com
 	name = Marcin Goliński
 [alias]
 	lol = log --graph --decorate --pretty=oneline --abbrev-commit --all
